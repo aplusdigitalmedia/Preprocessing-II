@@ -236,3 +236,24 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .topImg {
+  margin-bottom: 30px;
+  border-top: 2px dashed #C0C0C0;
+  width: 100%;
+}
+.home .topNav {
+  display: inline-flex;
+  padding-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+.home .topNav2 {
+  display: inline-flex;
+  color: black;
+  font-size: 1.5rem;
+}
+.home nav a {
+  display: inline-flex;
+  padding: 10px;
+  text-decoration: none;
+}
