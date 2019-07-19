@@ -179,6 +179,25 @@ img {
   color: white;
   border-radius: 10px;
 }
+.topNav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%
+    margin:0 auto;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+nav a {
+  display: inline-flex;
+  padding: 20px 20px 0px 0px;
+  text-decoration: none;
+}
+.inverse-content {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -238,22 +257,4 @@ img {
 }
 .home .topImg {
   margin-bottom: 30px;
-  border-top: 2px dashed #C0C0C0;
-  width: 100%;
-}
-.home .topNav {
-  display: inline-flex;
-  padding-top: 30px;
-  width: 100%;
-  justify-content: space-between;
-}
-.home .topNav2 {
-  display: inline-flex;
-  color: black;
-  font-size: 1.5rem;
-}
-.home nav a {
-  display: inline-flex;
-  padding: 10px;
-  text-decoration: none;
 }
